@@ -1,6 +1,9 @@
 //
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import 'partials/_variables';
+@import 'partials/_mixins';
+@import 'partials/_reset';
+@import 'partials/_common';
 
 * {
     margin: 0;
@@ -25,6 +28,47 @@ header {
             display: inline-block;
             a {
                 color: $link_main_color;
+            }
+        }
+    }
+}
+
+main {
+    background-image: url('https://www.lamolisana.it/wp-content/uploads/2017/06/fondo-pag-speciali.jpg');
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        .card {
+            margin: 20px;
+            flex-basis: calc(100% / 3 - 40px);
+            position: relative;
+            overflow: hidden;
+            &:hover {
+                .card-link {
+                    opacity: 1;
+                }
+                img {
+                    transform: scale(1.1);
+                }
+            }
+            img {
+                width: 100%;
+                display: block;
+                transition-duration: 0.3s;
+            }
+            .card-link {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                opacity: 0;
+                h3 {
+                    padding-bottom: 10px;
+                    a {
+                        color: $link_main_color;
+                    }
+                }
             }
         }
     }
