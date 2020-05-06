@@ -34,7 +34,9 @@ header {
 }
 
 main {
-    background-image: url('https://www.lamolisana.it/wp-content/uploads/2017/06/fondo-pag-speciali.jpg');
+    .container{
+        background-image: url('../img/fondo-pag-speciali.jpg');
+    }
     .cards {
         display: flex;
         flex-wrap: wrap;

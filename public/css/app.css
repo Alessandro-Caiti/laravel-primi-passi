@@ -29,8 +29,8 @@ header .main-menu li a {
   color: #000;
 }
 
-main {
-  background-image: url("https://www.lamolisana.it/wp-content/uploads/2017/06/fondo-pag-speciali.jpg");
+main .container {
+  background-image: url(/images/fondo-pag-speciali.jpg?2f95c43d2f5c6ce37bf1838709b316a3);
 }
 
 main .cards {
