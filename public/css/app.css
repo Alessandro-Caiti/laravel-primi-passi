@@ -1,4 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);* {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);ul {
+  list-style: none;
+}
+
+ul li a {
+  color: #000;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -74,5 +82,35 @@ main .cards .card .card-link h3 {
 
 main .cards .card .card-link h3 a {
   color: #000;
+}
+
+main .card-prodotto img {
+  display: block;
+  width: 100%;
+}
+
+main .card-prodotto .card-text {
+  background-color: #B8DAE4;
+  color: #032F75;
+  font-size: 20px;
+}
+
+main .card-prodotto .card-text .text-container {
+  padding: 50px 100px 150px;
+}
+
+footer .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .footer-nav .molisana {
+  margin: 50px;
+  flex-basis: calc(100% / 3 - 100px);
+}
+
+footer .footer-img img {
+  display: block;
+  width: 100%;
 }
 

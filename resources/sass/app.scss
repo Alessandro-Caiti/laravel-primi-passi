@@ -74,4 +74,35 @@ main {
             }
         }
     }
+    .card-prodotto {
+        img{
+            display: block;
+            width: 100%;
+        }
+        .card-text {
+            background-color: #B8DAE4;
+            color: #032F75;
+            font-size: 20px;
+            .text-container {
+                padding: 50px 100px 150px;
+            }
+        }
+    }
+}
+
+footer {
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        .molisana {
+            margin: 50px;
+            flex-basis: calc(100% / 3 - 100px);
+        }
+    }
+    .footer-img{
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
 }
